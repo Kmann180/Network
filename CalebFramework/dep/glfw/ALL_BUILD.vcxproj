@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1A0C1250-24FE-4CB2-B512-CF614BA6F0AD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\bin\cmake.exe "-HC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" "-BC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" --check-stamp-file "C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeClDeps.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompilerABI.c;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindOpenGL.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindThreads.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckIncludeFiles.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckLibraryExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckSymbolExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeConfigurableFile.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindDoxygen.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\docs\Doxyfile.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw_config.h.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfig.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfigVersion.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw3.pc.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\cmake_uninstall.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\bin\cmake.exe "-HC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" "-BC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" --check-stamp-file "C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeClDeps.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompilerABI.c;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindOpenGL.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindThreads.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckIncludeFiles.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckLibraryExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckSymbolExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeConfigurableFile.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindDoxygen.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\docs\Doxyfile.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw_config.h.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfig.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfigVersion.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw3.pc.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\cmake_uninstall.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\bin\cmake.exe "-HC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" "-BC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" --check-stamp-file "C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeClDeps.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompilerABI.c;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindOpenGL.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindThreads.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckIncludeFiles.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckLibraryExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckSymbolExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeConfigurableFile.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindDoxygen.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\docs\Doxyfile.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw_config.h.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfig.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfigVersion.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw3.pc.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\cmake_uninstall.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\bin\cmake.exe "-HC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" "-BC:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw" --check-stamp-file "C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeClDeps.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeRCInformation.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompilerABI.c;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\3.0.1\CMakeCCompiler.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindOpenGL.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindThreads.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckIncludeFiles.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckLibraryExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CheckSymbolExists.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeConfigurableFile.in;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindDoxygen.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\FindPackageMessage.cmake;c:\Users\terry.nguyen\Tools\cmake-3.0.1-win32-x86\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\docs\Doxyfile.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw_config.h.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfig.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfwConfigVersion.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\src\glfw3.pc.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\cmake_uninstall.cmake.in;C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\a98cfa4ddda87e3ff08905b2a6c1b514\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/a98cfa4ddda87e3ff08905b2a6c1b514/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/a98cfa4ddda87e3ff08905b2a6c1b514/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/a98cfa4ddda87e3ff08905b2a6c1b514/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/a98cfa4ddda87e3ff08905b2a6c1b514/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\terry.nguyen\Documents\Visual Studio 2013\Projects\AIEFramework\dep\glfw\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/ZERO_CHECK.vcxproj">
+      <Project>CFCB265A-4AF0-4C03-8BD3-EB5D87DC3CA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/accuracy.vcxproj">
+      <Project>DC166BBC-169C-469C-B069-B387B7793469</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/boing.vcxproj">
+      <Project>FC164FED-879E-4CE1-8238-BCBF29D85CF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/clipboard.vcxproj">
+      <Project>F2FCDF7B-F9E5-4DCF-9B30-6ABBCAB814CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/cursor.vcxproj">
+      <Project>41F0BE00-2D42-4C66-9834-EF0391818A7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/cursoranim.vcxproj">
+      <Project>97238ED4-4173-4DE5-BDC5-D55209B951D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/defaults.vcxproj">
+      <Project>64F9ABF5-A65C-4E32-A669-F1B649066474</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/empty.vcxproj">
+      <Project>DBDFD9F7-9958-4534-9BE0-F8ADFF3E7BB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/events.vcxproj">
+      <Project>B720D306-A2AF-46BC-BC55-843614A0A9E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/fsaa.vcxproj">
+      <Project>AE7DF8D0-2ED3-4FED-96E0-2AA3802B4951</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/gamma.vcxproj">
+      <Project>36E5BB69-9D92-43A5-BD4E-8F24427D1DC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/gears.vcxproj">
+      <Project>30C91F1A-D889-4B41-BD74-21F03DA43E69</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/src/glfw.vcxproj">
+      <Project>4532E6F1-9C6F-4873-BF8E-CE04FD600E88</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/glfwinfo.vcxproj">
+      <Project>E39A30BC-1B65-4891-AB52-2A83E5524FB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/heightmap.vcxproj">
+      <Project>C0F5B107-32A6-4020-8ADC-0F993246A224</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/iconify.vcxproj">
+      <Project>6E0CDE29-D675-4A13-9FCB-CEA3FC599DA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/joysticks.vcxproj">
+      <Project>4DD093E4-82FC-4507-A6AB-3F433923091B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/modes.vcxproj">
+      <Project>2A961F6B-EE69-4DDA-9F6C-555D8DCCD0E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/particles.vcxproj">
+      <Project>C460F22B-C549-4548-A15A-E5BFFB3948CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/peter.vcxproj">
+      <Project>28858DFD-4A5A-4DF4-AFAD-1544D5389EF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/reopen.vcxproj">
+      <Project>EED13608-0D17-44E9-835C-4ADE8F5BA582</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/sharing.vcxproj">
+      <Project>56C0D257-9800-4144-BEFB-C01F994EA52D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/simple.vcxproj">
+      <Project>3D4122E5-90B4-464C-91BD-5232884C3D0A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/splitview.vcxproj">
+      <Project>DEC31FED-EC3E-4F50-9615-9C797B8A2B3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/tearing.vcxproj">
+      <Project>7409BA12-597E-4841-B8E7-2BF56930ACDF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/threads.vcxproj">
+      <Project>892C6328-C1BA-4FE2-A9D4-49A1DE4377E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/title.vcxproj">
+      <Project>506B3913-22BA-4B4E-A2D0-D099294FDFB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/examples/wave.vcxproj">
+      <Project>92E2A6C2-0134-4B02-8410-6749D4DB89E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/tests/windows.vcxproj">
+      <Project>8FBF1DC3-9C6A-4568-8D7C-B61D9F75F545</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

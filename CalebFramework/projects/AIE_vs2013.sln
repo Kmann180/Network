@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIEFramework", "AIEFramework\AIEFramework_vs2013.vcxproj", "{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0} = {5D056CED-A513-41EE-A0DD-6ECFE546F6B0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBXLoader", "..\tools\FBXLoader\FBXLoader_vs2013.vcxproj", "{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial1SceneMangement", "Tutorial1SceneMangement\Tutorial1SceneMangement.vcxproj", "{B8DCF056-7875-4A55-90FB-44CF4129E37A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RakTut_Client", "RakTut_Client\RakTut_Client.vcxproj", "{DA332993-54D2-41B9-A103-F1AB90A384BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RakTut_Server", "RakTut_Server\RakTut_Server.vcxproj", "{E8952722-B013-48BB-B075-5D6C00370C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}.Debug|Win32.Build.0 = Debug|Win32
+		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}.Release|Win32.ActiveCfg = Release|Win32
+		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}.Release|Win32.Build.0 = Release|Win32
+		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Debug|Win32.Build.0 = Debug|Win32
+		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Release|Win32.ActiveCfg = Release|Win32
+		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Release|Win32.Build.0 = Release|Win32
+		{B8DCF056-7875-4A55-90FB-44CF4129E37A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8DCF056-7875-4A55-90FB-44CF4129E37A}.Debug|Win32.Build.0 = Debug|Win32
+		{B8DCF056-7875-4A55-90FB-44CF4129E37A}.Release|Win32.ActiveCfg = Release|Win32
+		{B8DCF056-7875-4A55-90FB-44CF4129E37A}.Release|Win32.Build.0 = Release|Win32
+		{DA332993-54D2-41B9-A103-F1AB90A384BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA332993-54D2-41B9-A103-F1AB90A384BE}.Debug|Win32.Build.0 = Debug|Win32
+		{DA332993-54D2-41B9-A103-F1AB90A384BE}.Release|Win32.ActiveCfg = Release|Win32
+		{DA332993-54D2-41B9-A103-F1AB90A384BE}.Release|Win32.Build.0 = Release|Win32
+		{E8952722-B013-48BB-B075-5D6C00370C68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8952722-B013-48BB-B075-5D6C00370C68}.Debug|Win32.Build.0 = Debug|Win32
+		{E8952722-B013-48BB-B075-5D6C00370C68}.Release|Win32.ActiveCfg = Release|Win32
+		{E8952722-B013-48BB-B075-5D6C00370C68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

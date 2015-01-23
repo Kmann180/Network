@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeLists.txt
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineSystem.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeSystem.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/3.0.1/CMakeSystem.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineCompilerId.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CompilerId/VS-10.vcxproj.in
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeFindBinUtils.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeClDeps.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeCCompiler.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/3.0.1/CMakeCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeSystemSpecificInformation.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeGenericSystem.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/Platform/Windows.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/Platform/WindowsPaths.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeCInformation.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/Platform/Windows-MSVC-C.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/Platform/Windows-MSVC.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineRCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeRCCompiler.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/3.0.1/CMakeRCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeRCInformation.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeTestRCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeCommonLanguageInclude.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeTestCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeTestCompilerCommon.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeDetermineCompilerABI.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeParseImplicitLinkInfo.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeCCompiler.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/CMakeFiles/3.0.1/CMakeCCompiler.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindOpenGL.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageMessage.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindThreads.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CheckIncludeFiles.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CheckLibraryExists.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CheckSymbolExists.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeConfigurableFile.in
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageMessage.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindDoxygen.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/FindPackageMessage.cmake
+c:/Users/terry.nguyen/Tools/cmake-3.0.1-win32-x86/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/docs/Doxyfile.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/src/glfw_config.h.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/src/glfwConfig.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/src/glfwConfigVersion.cmake.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/src/glfw3.pc.in
+C:/Users/terry.nguyen/Documents/Visual Studio 2013/Projects/AIEFramework/dep/glfw/cmake_uninstall.cmake.in
